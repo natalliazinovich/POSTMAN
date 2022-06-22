@@ -1,0 +1,235 @@
+{
+	"id": "e604d144-9e0c-401a-b83a-09cb11ae0aa0",
+	"name": "HW_1",
+	"timestamp": "2022-06-14T15:49:32.199Z",
+	"collection_id": "21374744-94a304b9-6793-4fa7-bf8b-6c30c55dc2dd",
+	"folder_id": 0,
+	"environment_id": "21374744-3765bee7-4e68-47df-9e17-2e0e7412df95",
+	"totalPass": 7,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "25a7decb-3450-4813-8119-ea3f900dccdd",
+			"name": "EP_1",
+			"url": "http://162.55.220.72:5005/get_method?name=Natalli&age=35",
+			"time": 145,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				145
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "1951318a-513f-4a00-ac97-31a8ab2ce2ce",
+			"name": "EP_3",
+			"url": "http://162.55.220.72:5005/object_info_1?name=Natallia&age=35&weight=55",
+			"time": 144,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				144
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "765f3bb6-6bc1-4a90-8552-500fe9f741d9",
+			"name": "EP_4",
+			"url": "http://162.55.220.72:5005/object_info_2?name=Natallia&age=35&salary=1000",
+			"time": 141,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				141
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "d2aedd02-332b-4e0b-96da-f4a31689cdec",
+			"name": "EP_5",
+			"url": "http://162.55.220.72:5005/object_info_3?name=Natallia&age=35&salary=1000",
+			"time": 141,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				141
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "29ad2139-b244-47cf-bf97-8cdd0ead3c7c",
+			"name": "EP_6",
+			"url": "http://162.55.220.72:5005/object_info_4?name=Natallia&age=35&salary=1000",
+			"time": 148,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				148
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "e34624f5-681b-4d79-804c-ba15386c59de",
+			"name": "EP_2",
+			"url": "http://162.55.220.72:5005/user_info_3",
+			"time": 143,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				143
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "3133ea07-90d6-43e7-b56e-5013a657c73e",
+			"name": "EP_7",
+			"url": "http://162.55.220.72:5005/user_info_2",
+			"time": 148,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				148
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1010,
+	"collection": {
+		"requests": [
+			{
+				"id": "25a7decb-3450-4813-8119-ea3f900dccdd",
+				"method": "GET"
+			},
+			{
+				"id": "1951318a-513f-4a00-ac97-31a8ab2ce2ce",
+				"method": "GET"
+			},
+			{
+				"id": "765f3bb6-6bc1-4a90-8552-500fe9f741d9",
+				"method": "GET"
+			},
+			{
+				"id": "d2aedd02-332b-4e0b-96da-f4a31689cdec",
+				"method": "GET"
+			},
+			{
+				"id": "29ad2139-b244-47cf-bf97-8cdd0ead3c7c",
+				"method": "GET"
+			},
+			{
+				"id": "e34624f5-681b-4d79-804c-ba15386c59de",
+				"method": "POST"
+			},
+			{
+				"id": "3133ea07-90d6-43e7-b56e-5013a657c73e",
+				"method": "POST"
+			}
+		]
+	}
+}
